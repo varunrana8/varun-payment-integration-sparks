@@ -47,5 +47,6 @@
       echo "Sorry something went wrong!";
     }
   }
+window.history.go(1);
 
 ?>
