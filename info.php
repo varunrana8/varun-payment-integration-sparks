@@ -41,7 +41,7 @@
       $mail->Body = "<h3>Name : $name <br>Email : $email <br>Message : $message</h3>";
 
       $mail->send();
-      echo "<script type='text/javascript'>alert('Message sent Successfully')
+      echo "<script type='text/javascript'>alert('Message sent Successfully'); window.history.go(-1)
           </script>";
     } catch (Exception $e) {
       echo "Sorry something went wrong!";
