@@ -47,6 +47,6 @@
       echo "Sorry something went wrong!";
     }
   }
-window.history.go(1);
+window.history.go(-1);
 
 ?>
